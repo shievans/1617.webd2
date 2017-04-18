@@ -11,7 +11,6 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  
 
   color: rgba(232,234,246 ,1);
 }
@@ -22,13 +21,10 @@ body {
   padding: 1rem;
   margin-top: 1rem;
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+  background: rgb(211,211,211);
+  color: rgb(255,255,255);
 }
 
-* {
-  box-sizing: border-box;
-}
 
 
 [class*="col-"] {
