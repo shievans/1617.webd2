@@ -16,7 +16,8 @@ body {
 }
 
 .intro {
-  width: 100vw;
+  width: 90vw;
+  float:right;
 
   padding: 1rem;
   margin-top: 1rem;
