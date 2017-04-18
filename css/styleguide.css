@@ -26,3 +26,22 @@ body {
   background: rgba(41,182,246 ,1);
   color: rgba(1,87,155 ,1);
 }
+
+* {
+  box-sizing: border-box;
+}
+
+
+[class*="col-"] {
+    background-color: rgb(211,211,211);
+    float: left;
+    padding: 30px;
+    margin: 2rem;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+
+
+
