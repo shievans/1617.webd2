@@ -15,7 +15,9 @@ html, body {
   color: rgba(232,234,246 ,1);
 }
 
-
+.intro {
+  width: 98vw;
+  float:right;
 
   padding: 1rem;
   margin-top: 1rem;
@@ -44,9 +46,17 @@ html, body {
     color: rgb(255,255,255);
 }
 
-
-  
-
-
+a,
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(0,0,0);
+}
 
 
