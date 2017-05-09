@@ -17,7 +17,7 @@ html, body {
 
 .intro {
   width: 93vw;
-  float:left;
+  float:right;
   padding: 1rem;
   margin-bottom: 1rem;
   background: rgb(0,0,0);
@@ -26,16 +26,18 @@ html, body {
 
 .images {
   margin: 1rem;
+  margin-left: 6rem;
   width: 10%;
 }
   
 .kleur{
   float:left;
   margin: 2rem;
+  margin-left: 6rem;
 }
 
 
-
+/* Formulier */
 
 form
     {
@@ -44,12 +46,14 @@ form
     
     font-family: 'questrial', sans-serif;
     font-size: small;
+    
     }
 
 label
     {
     float: left;
     width: 75px;
+    margin-left:6rem;
     }
 input
     {
@@ -62,6 +66,7 @@ input
     border-color:rgb(0,0,0);
     
     margin-bottom: 10px;
+    margin-left:6rem;
     }
 
 textarea
@@ -78,16 +83,21 @@ textarea
     font-size: small;
     
     margin-bottom: 10px;
+    margin-left:6rem;
+    
     }
 
-    [class*="column-"] {
+   
+
+/* Grid */
+
+ [class*="column-"] {
     margin-bottom: 1rem;
     height:400px;
     width:400px;
     float:left;
     
 }
-
 [class*="column-"] > div {
     background-color: rgb(190,190,190);
     height: 400px;
