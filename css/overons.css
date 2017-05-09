@@ -17,7 +17,7 @@ html, body {
 
 .intro {
   width: 93vw;
-  float:left;
+  float:right;
 
   padding: 1rem;
   margin-bottom: 1rem;
@@ -28,24 +28,24 @@ html, body {
 
 [class*="column-"] {
     margin-bottom: 1rem;
-    height:500px;
-    width:500px;
-    float:right;
+    height:400px;
+    width:400px;
+    float:left;
     
 }
 
 [class*="column-"] > div {
     background-color: rgb(190,190,190);
-    height: 500px;
-    line-height: 500px;
+    height: 400px;
+    line-height: 400px;
     text-align: center;
     color: rgb(255,255,255);
 }
 
 [class*="column-"]>div:hover {
     background-color: rgb(210,210,210);
-    height: 500px;
-    line-height: 500px;
+    height: 400px;
+    line-height: 400px;
     text-align: center;
     color: rgb(255,255,255);
 }
