@@ -35,7 +35,14 @@ html, body {
   margin: 2rem;
   margin-left: 6rem;
 }
+.button {
+    width: 10mm;
+    height: 10mm;
+}
 
+.kaart {
+    margin-left:6rem;
+    }
 
 /* Formulier */
 
@@ -66,7 +73,7 @@ input
     border-color:rgb(0,0,0);
     
     margin-bottom: 10px;
-    margin-left:6rem;
+    margin-left:4rem;
     }
 
 textarea
