@@ -44,6 +44,19 @@ html, body {
     margin-left:6rem;
     }
 
+a,
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(0,0,0);
+}
+
 /* Formulier */
 
 form
