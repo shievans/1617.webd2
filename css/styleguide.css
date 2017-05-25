@@ -44,18 +44,8 @@ html, body {
     margin-left:6rem;
     }
 
-a,
-a:visited {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-a:active {
-    color: rgb(0,0,0);
-}
+
+ 
 
 /* Formulier */
 
@@ -113,6 +103,7 @@ textarea
 
  [class*="column-"] {
     margin-bottom: 1rem;
+    margin-left:4px;
     height:400px;
     width:400px;
     float:left;

@@ -28,6 +28,7 @@ html, body {
 
 [class*="column-"] {
     margin-bottom: 1rem;
+    margin-left:4px;
     height:400px;
     width:400px;
     float:left;
@@ -64,3 +65,71 @@ a:active {
 }
 
 
+.images {
+    width: 400px;
+    height: 400px;
+    margin-bottom:5rem;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    
+}
+.container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: rgb(190,190,190);
+    opacity:0.8;
+   margin-left:0.5rem;
+}
+.container:hover .overlay {
+    display: block;
+    background: rgb(190, 190, 190);
+    
+}
+
+.diensten {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  
+  
+}
+.diensten:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.8s;
+  /*opacity: 0;*/
+ 
+}
+/*.diensten:hover:before {
+  opacity: 0.8;
+}*/
+
+.text{  color: rgb(255,255,255);
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}
+
+.button {
+    width: 10mm;
+    height: 10mm;
+    float:right;
+    padding: 2px; 
+        
+}

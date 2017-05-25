@@ -31,7 +31,7 @@ html, body {
     margin-left:4px;
     height:400px;
     width:400px;
-    float:left;
+    float:right;
     
 }
 
@@ -43,34 +43,18 @@ html, body {
     line-height: 400px;
     text-align: center;
     color: rgb(255,255,255);
+    
+    
 }
 
-[class*="column-"]>div:hover {
-    background-color: rgb(210,210,210);
-    height: 400px;
-    line-height: 400px;
-    text-align: center;
-    color: rgb(255,255,255);
-}
-
-a,
-a:visited {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-   
-}
-a:active {
-    color: rgb(0,0,0);
-}
 
 .images {
     width: 350px;
     height: 400px;
-    padding: 1rem;
+    margin-bottom:5rem;
+    margin-top:3px;
+    
+    
 }
 
 .meerle{
@@ -79,6 +63,7 @@ a:active {
     padding:1rem;
     margin-top: 2rem;
 }
+
 .naamlogo{
     width:300px;
     height:400px;
@@ -118,6 +103,19 @@ a:active {
     padding: 1rem;
     margin-top:3rem;
     }
+
+.kerst{
+    width: 350px;
+    height: 350px;
+    margin-bottom:5rem;
+    margin-top:1.5rem;
+    
+}
+
+.tekst{
+    float:left;
+}
+
 .button {
     width: 10mm;
     height: 10mm;

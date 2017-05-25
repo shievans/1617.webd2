@@ -28,6 +28,7 @@ html, body {
 
 [class*="column-"] {
     margin-bottom: 1rem;
+    margin-left:4px;
     height:400px;
     width:400px;
     float:left;
@@ -114,3 +115,10 @@ textarea
 .kaart {
     margin-left:6rem;
     }
+.button {
+    width: 10mm;
+    height: 10mm;
+    float:right;
+    padding: 2px; 
+        
+}

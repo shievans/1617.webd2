@@ -85,7 +85,8 @@ html {
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  zoom: 1; }
+  zoom: 1; 
+  }
   .sf-grid__container:before, .sf-grid__container:after {
     content: "\0020";
     display: block;
@@ -128,6 +129,7 @@ html {
   width: 100%;
   min-height: 1px;
   overflow: hidden; }
+  
 
 .sf-grid__column-1 {
   width: 8.33333%; }
@@ -145,7 +147,8 @@ html {
   width: 41.66667%; }
 
 .sf-grid__column-6 {
-  width: 50%; }
+  width: 50%; 
+  }
 
 .sf-grid__column-7 {
   width: 58.33333%; }
@@ -181,7 +184,7 @@ html {
   margin-left: 41.66667%; }
 
 .sf-grid__offset-6 {
-  margin-left: 50%; }
+  margin-left: 50; }
 
 .sf-grid__offset-7 {
   margin-left: 58.33333%; }

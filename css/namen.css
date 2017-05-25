@@ -28,27 +28,27 @@ html, body {
 
 [class*="column-"] {
     margin-bottom: 1rem;
-    margin-left:4px;
+    margin-left: 4px;
     height:400px;
     width:400px;
-    float:left;
+    float:right;
     
 }
 
 [class*="column-"] > div {
-    background-color: rgb(190,190,190);
+  
     height: 400px;
     line-height: 400px;
-    text-align: center;
-    color: rgb(255,255,255);
+    
+    
 }
 
 [class*="column-"]>div:hover {
-    background-color: rgb(210,210,210);
+   
     height: 400px;
     line-height: 400px;
-    text-align: center;
-    color: rgb(255,255,255);
+   
+    
 }
 
 a,
@@ -63,7 +63,17 @@ a:hover {
 a:active {
     color: rgb(0,0,0);
 }
+.images {
+    width: 400px;
+    height: 400px;
+    margin-bottom:5rem;
+    
+    
+}
 
+.overons{
+    text-align:center;
+}
 
 .button {
     width: 10mm;
