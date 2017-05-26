@@ -7,14 +7,6 @@ html, body {
   padding: 0;
 }
 
-/*body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-
-  color: rgba(232,234,246 ,1);
-}*/
-
 .intro {
   width: 93vw;
   float:right;
