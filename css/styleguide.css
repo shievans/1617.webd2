@@ -137,3 +137,35 @@ a:hover {
 a:active {
     color: rgb(0,0,0);
 }
+
+.wing{
+    width:20mm;
+    height:20mm;
+  margin: 1rem;
+  margin-left: 6rem;
+  
+}
+ 
+ .wingwing{
+    width:40mm;
+    height:40mm;
+  margin: 1rem;
+  margin-left: 6rem;
+  
+}
+
+.wingwingwing{
+    width:60mm;
+    height:60mm;
+  margin: 1rem;
+  margin-left: 6rem;
+  
+}
+
+.wingwingwingwing{
+    width:80mm;
+    height:80mm;
+  margin: 1rem;
+  margin-left: 6rem;
+  
+}
