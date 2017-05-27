@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  color: rgba(232,234,246 ,1);
+}*/
+
+.intro {
+  width: 93vw;
+  float:right;
+
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  background: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+
+[class*="column-"] {
+    margin-bottom: 1rem;
+    margin-left:4px;
+    height:400px;
+    width:400px;
+    float:right;
+    
+}
+
+[class*="column-"] > div {
+    background-color: rgb(255,255,255);
+    border: solid;
+    border-color: rgb(190,190,190);
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    color: rgb(255,255,255);
+    
+    
+}
+
+
+.images {
+    width: 350px;
+    height: 400px;
+    margin-bottom:5rem;
+    margin-top:3px;
+    
+    
+}
+
+.meerle{
+    width: 350px;
+    height: 300px;
+    padding:1rem;
+    margin-top: 2rem;
+}
+
+.naamlogo{
+    width:300px;
+    height:400px;
+    padding: 1rem;
+}
+
+.dieren{
+    width:300px;
+    height:300px;
+    padding:1rem;
+    margin-top: 3rem;
+}
+
+.letter{
+    width: 300px;
+    height:250px;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.poster{
+    width:300px;
+    height: 400px;
+    padding:1rem;
+}
+
+.winkelnaam {
+    width: 350px;
+    height: 300px;
+    padding: 1rem;
+    margin-top:2rem;
+    }
+
+.letterb {
+    width: 350px;
+    height: 300px;
+    padding: 1rem;
+    margin-top:3rem;
+    }
+
+.kerst{
+    width: 350px;
+    height: 350px;
+    margin-bottom:5rem;
+    margin-top:1.5rem;
+    
+}
+
+.tekst{
+    float:left;
+}
+
+.button {
+    width: 10mm;
+    height: 10mm;
+    float:right;
+    padding: 2px; 
+        
+}
+
+.wing{
+    width:20mm;
+    height:20mm;
+    float: right;
+}

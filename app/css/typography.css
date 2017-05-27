@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.42;
+}
+
+.titel {
+  font-family: 'Rubik mono one', sans-serif;
+  margin: 1rem;
+  font-size: 20pt;
+  font-weight: 500;
+  font-style: normal;
+   line-height:0,50;
+  text-decoration: underline;
+
+}
+h1 {
+  font-family: 'Rubik mono one', sans-serif;
+  margin: 1rem;
+  margin-left: 6rem;
+  font-size: 20pt;
+  font-weight: 500;
+  font-style: normal;
+   line-height:0,50;
+  text-decoration: underline;
+  
+}
+
+ h2 {
+   font-family: 'Rubik mono one', sans-serif;
+   margin: 1rem;
+   margin-left: 6rem;
+   font-size: 18pt; 
+   font-weight:500;
+   font-style: normal;
+    line-height:0,50;
+ }
+
+ h3 {
+   font-family: 'questrial', sans-serif;
+   margin: 1rem;
+   margin-left: 6rem;
+   font-size: 16pt;
+   font-weight: 500;
+   font-style: normal;
+    line-height:0,50;
+ }
+ h4{
+    font-family: 'questrial', sans-serif;
+   margin: 1rem;
+   margin-left: 6rem;
+   font-size: 14pt;
+   font-weight: 500;
+   font-style: normal;
+    line-height:0,50;
+ }
+ h5{
+    font-family: 'questrial', sans-serif;
+   margin: 1rem;
+   margin-left: 6rem;
+   font-size: 12pt;
+   font-weight: 500;
+   font-style: normal;
+    line-height:0,50;
+ }
+ h6{ 
+   font-family: 'questrial', sans-serif;
+   margin:1rem;
+   margin-left: 6rem;
+   font-size: 10pt;
+   font-weight: 500;
+   font-style: normal;
+   line-height:0,50;
+   }
+ p{
+   font-family: 'questrial', sans-serif;
+   margin: 1rem;
+   margin-left: 6rem;
+   font-size: 12pt;
+   font-weight: 500;
+   font-style: normal;
+   line-height:1,00;
+ }

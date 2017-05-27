@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  color: rgba(232,234,246 ,1);
+}*/
+
+.intro {
+  width: 93vw;
+  float:right;
+
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  background: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+
+[class*="column-"] {
+    margin-bottom: 1rem;
+    margin-left: 4px;
+    height:400px;
+    width:400px;
+    float:right;
+    
+}
+
+[class*="column-"] > div {
+  
+    height: 400px;
+    line-height: 400px;
+    
+    
+}
+
+[class*="column-"]>div:hover {
+   
+    height: 400px;
+    line-height: 400px;
+   
+    
+}
+
+a,
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(0,0,0);
+}
+.images {
+    width: 400px;
+    height: 400px;
+    margin-bottom:5rem;
+    
+    
+}
+
+.overons{
+    text-align:center;
+}
+
+.button {
+    width: 10mm;
+    height: 10mm;
+    float:right;
+    padding: 2px; 
+        
+}
+
+.wing{
+    width:20mm;
+    height:20mm;
+    float: right;
+}
